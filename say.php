@@ -28,7 +28,7 @@ if(isset($_REQUEST['message'])){
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <title>Sayer</title>
+    <title>PHP-TTS-Webhooks</title>
   </head>
   <body>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
@@ -36,7 +36,7 @@ if(isset($_REQUEST['message'])){
     <div class="container">
       <div class="row">
        <div class="col-12">
-         <h1><a href="https://github.com/cjtrowbridge/Sayer" target="_blank">Sayer</a></h1>
+         <h1><a href="https://github.com/cjtrowbridge/PHP-TTS-Webhooks" target="_blank">PHP-TTS-Webhooks</a></h1>
          <hr>
          <p>To have me say something, GET or POST to the variable "message" and I will say it.</p>
          <p>I can help you make a webhook. What would you like me to say?</p>
