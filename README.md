@@ -1,5 +1,5 @@
 # PHP-TTS-Webhooks
-This PHP script allows you to create TTS webhooks.
+This PHP script allows you to create TTS webhooks. Want your Raspberry Pi to say something? No problem!
   
 ## Requirements
 You will need to have GNU say installed. 
