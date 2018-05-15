@@ -26,7 +26,7 @@ Then add this to the virtualhost;
   
 I am assuming you clone this repository into /var/www/say. Change this path as needed. It will require the username and password you set up for anyone trying to access that directory.
   
-##Setup
+## Setup
   
 Edit the say.php file and enter the username and password you chose in the previous step where prompted. Now navigate to the file in a browser using the public FQDN. It's fine if this is an IP, as long as it's publicly accessible. Open the say.php file and play around with the test page. It will help you create a webhook which includes the uersname and password as well as the string you would like it to say. 
   
