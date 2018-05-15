@@ -31,3 +31,7 @@ I am assuming you clone this repository into /var/www/say. Change this path as n
 Edit the say.php file and enter the username and password you chose in the previous step where prompted. Now navigate to the file in a browser using the public FQDN. It's fine if this is an IP, as long as it's publicly accessible. Open the say.php file and play around with the test page. It will help you create a webhook which includes the uersname and password as well as the string you would like it to say. 
   
 Use this webhook for IFTTT or other services which you want to be able to play TTS messages on your device!
+
+
+## Future Plans
+I plan to add support for playing local media files from the server as well as casting TTS and media files to devices such as a Google Home, rather than playing them on the local machine. I actually already have this working but it is very hacky, so I will try to clean it up and make it more reliable before releasing it. If you want to play around with that functionality now, there is a great project on github called [CastV2inPHP](https://github.com/ChrisRidings/CastV2inPHP). You will just need to use a cli tool to create a tts mp3 which you can cast. The trickiest part is getting Google Home to play the file. It's very easy to get a TV Chromecast to play the file, but the audio-only cast devices use a completely different system which doesn't seem to be documented very well. Stay tuned!
