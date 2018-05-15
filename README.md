@@ -17,14 +17,14 @@ You will be prompted to enter a password.
   
 Then add this to the virtualhost;
   
-`<Directory "/var/www/html/say">
-  AuthType Basic
-  AuthName "Restricted Content"
-  AuthUserFile /etc/apache2/.htpasswd
-  Require valid-user
-</Directory>`
+`<Directory "/var/www/html/say">  
+  AuthType Basic  
+  AuthName "Restricted Content"  
+  AuthUserFile /etc/apache2/.htpasswd  
+  Require valid-user  
+</Directory>`  
   
-I am assuming you clone this repository into /var/www/say. Change this path as needed. It will require the username and password you set up for anyone trying to access that directory.
+I am assuming you clone this repository into /var/www/say. Change this path as needed. It will require the username and password you set up for anyone trying to access that directory. If you choose a different path, you should also update the hyperlink in the say.php file so it reflects your chosen hierarchy and creates valid webhooks.
   
 ## Setup
   
