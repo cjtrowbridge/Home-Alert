@@ -8,6 +8,8 @@ You will need to have GNU say installed.
 You will also need to allow the www-data user to do audio output.
 `sudo adduser www-data audio`
 
+You will need to forward port 80 from your router to the server the script is running on, such as a Raspberry Pi.
+
 ## IMPORTANT
 You should not run this script without locking down the virtualhost with a htpasswd file. Create a very strong username and password like so;
   
